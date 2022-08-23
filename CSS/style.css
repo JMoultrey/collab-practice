@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 2vw; 
+    padding: 0;
+    width: 105%; 
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+    float: left; 
+    display: block; 
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    float: left;
+    margin: 1vw; 
+    text-decoration: none;
+  }
+
+.row-container {
+    float: left; 
+}
+
+.column {
+    float: left;
+    margin: 0.2em; 
+    width: 32.5%; 
+    border: double;  
+}
+
+ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.one {
+    background-color: lightblue;
+}
+.two {
+    background-color: lightcoral;
+}
+.three {
+    background-color: lightgreen; 
+}
+
+footer {
+    text-align: center;
+    font-size: x-small; 
+    background-color: lightseagreen; 
+}
